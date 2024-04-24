@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "b251df64-8656-42f1-adf4-1682955b04be",
+		"name": "Open Ai Image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18188172"
+	},
+	"item": [
+		{
+			"name": "Generate Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/image?imagePrompt=Create a image of a black dog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"image"
+					],
+					"query": [
+						{
+							"key": "imagePrompt",
+							"value": "Create a image of a black dog"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
