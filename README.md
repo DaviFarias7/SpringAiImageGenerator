@@ -4,6 +4,9 @@
 https://docs.spring.io/spring-ai/reference/api/clients/image/openai-image.html
 
 ### Observação:
+
+Atualmente, o Spring AI não é distribuído no repositório central, mas sim no próprio repositório Maven do Spring. Portanto, para incluí-lo, você precisa adicionar o endereço do repositório do Spring no arquivo pom.xml.
+
 Logo abaixo da tag ``<java.version>17</java.version>``, que fica dentro da tag ``<properties></properties>``é necessário adicionar a versão do Spring AI
 
 ```
