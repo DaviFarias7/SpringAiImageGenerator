@@ -46,3 +46,12 @@ Por último, após a tag ``</build>`` adicione este repository:
 	</repositories>
 ```
 
+### Endpoint gerando a imagem
+
+
+![dog](https://github.com/DaviFarias7/SpringAiImageGenerator/assets/86566715/361a5ec5-c4c6-45b5-83b9-d4672ea8e580)
+
+
+### Imagem no browser
+
+![image-dog](https://github.com/DaviFarias7/SpringAiImageGenerator/assets/86566715/19a5a463-482d-4932-ada4-676e46128b08)
